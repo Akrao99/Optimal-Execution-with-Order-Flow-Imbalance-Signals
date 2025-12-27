@@ -121,9 +121,7 @@ Initial OFI-tilted strategies **underperformed** VWAP. Diagnostic analysis revea
 
 ```
 ├── prepare_execution_data.py    # Process LOB data, compute OFI, add price/volume
-├── run_backtest_fast.py         # Initial backtest (identified the problem)
 ├── run_backtest_volume_aware.py # Fixed strategies backtest
-├── ofi_diagnostic.py            # Diagnostic analysis
 ├── OPTIMAL_EXECUTION_MATH.md    # Mathematical framework
 └── README.md
 ```
@@ -158,25 +156,7 @@ Initial OFI-tilted strategies **underperformed** VWAP. Diagnostic analysis revea
 
 ---
 
-## Usage
 
-### 1. Prepare Data
-```python
-python prepare_execution_data.py
-# Outputs: SPY_execution_data_full.parquet
-```
-
-### 2. Run Backtest
-```python
-python run_backtest_volume_aware.py
-# Outputs: execution_results_volume_aware.csv
-```
-
-### 3. Run Diagnostics
-```python
-python ofi_diagnostic.py
-# Outputs: ofi_diagnostic_data.parquet
-```
 
 ---
 
