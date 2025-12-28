@@ -237,6 +237,6 @@ MIT
 
 ## Author
 
-[Your Name]
+Ankamma Rao Bandi
 
 *Built as a quantitative research project exploring market microstructure and optimal execution.*
